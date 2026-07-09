@@ -171,7 +171,7 @@ git checkout feature/my-task
 git stash pop
 ```
 
-List all stashes: `git stash list`  
+List all stashes: `git stash list`
 Apply a specific stash: `git stash apply stash@{2}`
 
 ---

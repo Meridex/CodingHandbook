@@ -93,7 +93,7 @@ def thermal_mass_squared(phi, T):
     return g_squared * (T**2 / 12 + phi**2 / 4) + daisy_correction(phi, T)
 ```
 
-Remove **all three markers** (`<<<<<<<`, `=======`, `>>>>>>>`). 
+Remove **all three markers** (`<<<<<<<`, `=======`, `>>>>>>>`).
 Leaving any marker in the file is a broken state.
 
 ### Step 4: Stage the resolved file

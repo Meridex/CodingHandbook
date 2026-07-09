@@ -162,7 +162,7 @@ when T > 0. Controlled by include_thermal flag.
 Closes #42.                                          ← Issue reference
 ```
 
-**Good verbs:** Add, Fix, Remove, Improve, Refactor, Update, Implement, Rename  
+**Good verbs:** Add, Fix, Remove, Improve, Refactor, Update, Implement, Rename
 **Bad verbs:** update, fix, changes, final, temp, wip, misc
 
 ---

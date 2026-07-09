@@ -93,7 +93,7 @@ the introduction and the conclusion simultaneously.
 ```
 Add thermal integral function
 Add unit test for thermal integral
-Fix sign error in thermal integral  
+Fix sign error in thermal integral
 Add docstring for thermal integral
 ```
 

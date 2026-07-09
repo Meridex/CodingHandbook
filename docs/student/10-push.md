@@ -119,7 +119,7 @@ git push --force-with-lease
     else has pushed to the remote branch since you last fetched. If someone has
     pushed, the command refuses — protecting against accidentally overwriting
     a colleague's work.
-    
+
     `--force` provides no such protection. Never use it.
 
 **Rules for force push:**

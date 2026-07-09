@@ -30,9 +30,9 @@ responding to feedback:
 
 When leaving feedback as a reviewer, label your intent:
 > "**Required:** The boundary condition at T=0 is wrong — this will crash."
-> 
+>
 > "**Suggestion:** This loop could be replaced with a list comprehension for clarity."
-> 
+>
 > "**Question:** Why is the thermal mass squared always taken as positive here?"
 
 ---

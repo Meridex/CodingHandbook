@@ -8,7 +8,7 @@
 
 ## Files Affected
 <!-- List the main files modified. -->
-- 
+-
 
 ## Testing Performed
 <!-- How was this tested? Run command and expected output. -->

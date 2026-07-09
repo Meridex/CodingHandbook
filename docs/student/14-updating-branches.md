@@ -33,7 +33,7 @@ Rebase replays your commits on top of the latest `main`, creating a linear histo
 
 ```
 Before rebase:                After rebase:
-                              
+
 main:    A - B - D - E        main:    A - B - D - E
                                                     \
 feature: A - B - C - F        feature:              C' - F'
