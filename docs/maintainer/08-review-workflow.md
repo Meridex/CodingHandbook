@@ -130,7 +130,7 @@ The maintainer merges the PR:
 5. Edit the squash commit message to:
    ```
    Brief description of change (#PR-number)
-   
+
    Optional: one-line context if the title is not fully self-explanatory.
    ```
 6. Click **"Confirm squash and merge"**.
