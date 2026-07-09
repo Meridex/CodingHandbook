@@ -1,0 +1,96 @@
+site_name: NNU-PP Research Software Handbook
+site_description: Official software engineering handbook for the NNU-PP research group
+site_author: NNU-PP Group
+repo_url: https://github.com/ORG/Lab-Handbook
+repo_name: ORG/Lab-Handbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Student Guide:
+    - Introduction: student/01-introduction.md
+    - Git vs GitHub: student/02-git-vs-github.md
+    - Workflow Overview: student/03-workflow-overview.md
+    - Initial Setup: student/04-initial-setup.md
+    - SSH Authentication: student/05-ssh.md
+    - Cloning the Repository: student/06-clone.md
+    - Daily Workflow: student/07-daily-workflow.md
+    - Branches: student/08-branches.md
+    - Commits: student/09-commits.md
+    - Pushing: student/10-push.md
+    - Pull Requests: student/11-pull-requests.md
+    - Reviews: student/12-reviews.md
+    - Merge Conflicts: student/13-merge-conflicts.md
+    - Updating Branches: student/14-updating-branches.md
+    - Common Mistakes: student/15-common-mistakes.md
+    - FAQ: student/16-faq.md
+    - Cheat Sheet: student/17-cheat-sheet.md
+    - Exercises: student/18-exercises.md
+  - Maintainer Guide:
+    - Repository Creation: maintainer/01-repo-creation.md
+    - Repository Settings: maintainer/02-repo-settings.md
+    - Branch Protection: maintainer/03-branch-protection.md
+    - Collaborator Management: maintainer/04-collaborators.md
+    - Labels: maintainer/05-labels.md
+    - Milestones: maintainer/06-milestones.md
+    - Project Board: maintainer/07-project-board.md
+    - Review Workflow: maintainer/08-review-workflow.md
+    - Merge Strategy: maintainer/09-merge-strategy.md
+    - Releases: maintainer/10-releases.md
+    - Tags: maintainer/11-tags.md
+    - Documentation Policy: maintainer/12-documentation-policy.md
+    - Testing Policy: maintainer/13-testing-policy.md
+    - CI Preparation: maintainer/14-ci-preparation.md
+    - Backup Strategy: maintainer/15-backup-strategy.md
+    - Archiving: maintainer/16-archiving.md
+    - Public Transition: maintainer/17-public-transition.md
+    - Student Onboarding: maintainer/18-student-onboarding.md
+    - Student Offboarding: maintainer/19-student-offboarding.md
+  - Appendices:
+    - Research Software Principles: appendices/research-software-principles.md
+    - Group Policies: appendices/group-policies.md
+    - Glossary: appendices/glossary.md

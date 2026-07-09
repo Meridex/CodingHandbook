@@ -1,0 +1,43 @@
+name: Feature Request
+description: Propose a new feature, calculation, or improvement
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a new feature or calculation.
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature needed? What research problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should be implemented? Be specific.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Relevant papers, equations, or existing implementations.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High (blocking paper / deadline)
+        - Medium (needed for completeness)
+        - Low (nice to have)
+    validations:
+      required: true

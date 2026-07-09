@@ -1,0 +1,71 @@
+name: Bug Report
+description: Report an incorrect result, crash, or unexpected behaviour
+labels: ["type: bugfix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        Please fill in all sections — incomplete reports are hard to act on.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear, concise description of the problem.
+      placeholder: "When I run X with parameter Y, the output is Z but I expected W."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Exact commands or code to reproduce the issue.
+      placeholder: |
+        1. Run `python scripts/run.py --param 0.5`
+        2. Observe error in line 42 of output
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+      description: What actually happened? Include the full error message or output.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Code Version / Commit
+      description: Which commit or branch were you using?
+      placeholder: "main @ a3f2c91 or branch feature/thermal-correction"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python/compiler version, relevant dependency versions.
+      placeholder: "macOS 14.2, Python 3.11.4, numpy 1.26.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Relevant equations, paper references, or anything else.
+    validations:
+      required: false
