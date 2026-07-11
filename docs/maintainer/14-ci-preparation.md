@@ -163,7 +163,6 @@ Add these workflows incrementally as the codebase matures:
 ### Type Checking (mypy)
 
 ```yaml
-
 - name: Type check with mypy
   run: |
     pip install mypy
