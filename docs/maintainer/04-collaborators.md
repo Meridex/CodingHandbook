@@ -34,6 +34,13 @@ GitHub has five permission levels for repository collaborators:
 Never assign **Admin** to students. Never assign **Write** to external parties
 without PI approval.
 
+```mermaid
+graph TD
+    A[Admin<br/>PI] --> B[Maintain<br/>Senior Students / Post-docs]
+    B --> C[Write<br/>Students]
+    C --> D[Read<br/>External Collaborators]
+```
+
 ---
 
 ## Adding a Collaborator

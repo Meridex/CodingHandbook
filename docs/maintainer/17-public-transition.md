@@ -9,6 +9,18 @@ This is a deliberate, checklist-driven process. A public repository is visible
 to the entire world — including future employers of your students, collaborators,
 and the referees of your next paper.
 
+The public transition is the `ReadyForRelease → Public` step in the repository lifecycle:
+
+```mermaid
+stateDiagram-v2
+    [*] --> Private : Repository created
+    Private --> ActiveDevelopment : Collaborators added
+    ActiveDevelopment --> ReadyForRelease : Paper accepted
+    ReadyForRelease --> Public : Maintainer makes public
+    Public --> Archived : Development complete
+    Archived --> [*]
+```
+
 ---
 
 ## When to Go Public

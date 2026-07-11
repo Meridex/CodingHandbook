@@ -53,6 +53,23 @@ Pre-release versions (before `v1.0.0`): use `v0.x.y`
 
 ---
 
+## Release Timeline
+
+Releases and tags mark significant moments in the development history:
+
+```mermaid
+gitGraph
+   commit id: "Initial"
+   commit id: "Feature A"
+   commit id: "Feature B" tag: "v0.1.0"
+   commit id: "Feature C"
+   commit id: "Bug fix" tag: "v0.1.1"
+   commit id: "Feature D"
+   commit id: "Refactor" tag: "v1.0.0 (paper submission)"
+```
+
+---
+
 ## Pre-Release Checklist
 
 Before creating a release, verify:

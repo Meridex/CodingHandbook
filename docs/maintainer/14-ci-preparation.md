@@ -25,6 +25,15 @@ With CI:
 For a research group where code correctness directly determines paper results,
 CI is essential, not optional.
 
+```mermaid
+flowchart LR
+    PR[Pull Request / Push] --> CI[GitHub Actions triggered]
+    CI --> T[Run pytest]
+    T --> P{Pass?}
+    P -- Yes --> G[Green checkmark on PR]
+    P -- No --> R[Red ✗ — PR cannot merge]
+```
+
 ---
 
 ## GitHub Actions Basics

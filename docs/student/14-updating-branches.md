@@ -39,6 +39,18 @@ main:    A - B - D - E        main:    A - B - D - E
 feature: A - B - C - F        feature:              C' - F'
 ```
 
+```mermaid
+gitGraph
+   commit id: "A"
+   commit id: "B"
+   commit id: "D: Alice's PR"
+   commit id: "E: Bob's PR"
+   branch feature/thermal-correction
+   checkout feature/thermal-correction
+   commit id: "C': your work (rebased)"
+   commit id: "F': more your work (rebased)"
+```
+
 Your commits C and F are **replayed** as new commits C' and F' on top of E.
 The content is the same; the parent commits are different.
 

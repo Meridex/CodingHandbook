@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+
+# C++
+*.o
+*.so
+*.a
+*.out
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs
+*.dat
+*.hdf5
+*.h5
+*.csv
+data/
+output/
+results/
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp

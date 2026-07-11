@@ -11,6 +11,16 @@ Archiving is distinct from deletion. An archived repository:
 - Can be cloned and cited forever
 - Cannot receive new issues, PRs, or commits (unless unarchived)
 
+```mermaid
+stateDiagram-v2
+    [*] --> Private : Repository created
+    Private --> ActiveDevelopment : Collaborators added
+    ActiveDevelopment --> ReadyForRelease : Paper accepted
+    ReadyForRelease --> Public : Maintainer makes public
+    Public --> Archived : Development complete
+    Archived --> [*]
+```
+
 ---
 
 ## When to Archive

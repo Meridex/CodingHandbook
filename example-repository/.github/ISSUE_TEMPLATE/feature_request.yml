@@ -1,5 +1,5 @@
 name: Feature Request
-description: Propose a new feature, calculation, or improvement
+description: Propose a new feature, method, or improvement
 labels: ["type: feature"]
 body:
   - type: markdown
@@ -11,7 +11,7 @@ body:
     id: motivation
     attributes:
       label: Motivation
-      description: Why is this feature needed? What research problem does it solve?
+      description: Why is this feature needed? What physics problem does it solve?
     validations:
       required: true
 
@@ -36,7 +36,7 @@ body:
     attributes:
       label: Related Paper or Calculation
       description: Is this related to a paper, arXiv preprint, or specific calculation?
-      placeholder: "e.g. arXiv:2301.12345 or 'calculation for Chapter 3 of thesis'"
+      placeholder: "e.g. arXiv:2301.12345 or 'needed for stability analysis section'"
     validations:
       required: false
 

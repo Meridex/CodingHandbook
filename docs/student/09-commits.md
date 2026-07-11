@@ -27,6 +27,7 @@ flowchart LR
     W[Working Directory\nfiles you edit] -->|git add| S[Staging Area\nindex]
     S -->|git commit| R[Repository\n.git/ history]
     R -->|git checkout| W
+    S -->|git restore --staged| W
 ```
 
 The staging area gives you fine-grained control: you can edit five files but only
