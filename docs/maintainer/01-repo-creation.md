@@ -75,6 +75,7 @@ A well-labelled repository is discoverable and professional.
      ```
      physics  cosmology  phase-transition  python  research-code
      ```
+
 3. Click **Save changes**.
 
 ---
@@ -92,6 +93,7 @@ ls -la
 ```
 
 Confirm:
+
 - `.gitignore` is present and appropriate for the language
 - `README.md` is present
 - `LICENSE` is present

@@ -33,6 +33,7 @@ gitGraph
 ```
 
 In this diagram:
+
 - `main` advanced from C to F while `feature/thermal-correction` was being developed.
 - `feature/thermal-correction` contains commits D and E that `main` does not (yet) have.
 - Neither branch is "ahead" — they just diverged from commit C.
@@ -66,6 +67,7 @@ All lowercase, hyphens for spaces, no special characters.
 | `chore/` | Build system, CI, tooling, dependencies | `chore/update-dependencies` |
 
 **Rules:**
+
 - Use lowercase only
 - Use hyphens, not underscores or spaces
 - Be descriptive — `feature/gw-spectrum` is better than `feature/new-stuff`
@@ -166,6 +168,7 @@ This replays your commits on top of the latest `main`.
 **Never reuse an old branch for a new task.**
 
 After a branch is merged:
+
 1. Delete it locally: `git branch -d feature/old-task`
 2. Start fresh: `git checkout main && git pull origin main && git checkout -b feature/new-task`
 

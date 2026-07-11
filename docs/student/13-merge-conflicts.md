@@ -64,6 +64,7 @@ with the correct merged result.
 ### Step 1: Understand the conflict
 
 Before editing, read both versions and understand:
+
 - What did you change and why?
 - What did the other branch change and why?
 - Are the changes compatible? (Can both be kept?)
@@ -78,6 +79,7 @@ VS Code detects conflict markers and shows a dedicated merge editor with
 three panels: "Current" (your branch), "Incoming" (theirs), and "Result".
 
 Click buttons to:
+
 - **Accept Current Change** — keep your version
 - **Accept Incoming Change** — keep their version
 - **Accept Both Changes** — keep both (appended or combined)

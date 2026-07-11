@@ -79,6 +79,7 @@ Update installation documentation (#71)
 ```
 
 Rules:
+
 - **Imperative tense** (same as individual commit messages)
 - **PR number in parentheses** at the end — links back to the PR discussion
 - **One line** is sufficient for the subject

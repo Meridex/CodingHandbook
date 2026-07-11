@@ -100,17 +100,20 @@ gh label create "status: stale" --color "cccccc" --description "No activity for 
 ## Applying Labels Consistently
 
 **Labels on Issues:**
+
 - Apply `type:` label when creating the issue
 - Apply `priority:` label if urgency is known
 - Apply `status:` as work progresses
 
 **Labels on Pull Requests:**
+
 - Apply `type:` label to every PR (students should do this when opening the PR)
 - Apply `priority: high` for urgent fixes
 - Apply `status: needs-review` when the PR is ready for review
 - Remove `status: needs-review` and add `status: stale` if the PR goes cold
 
 **Periodic triage (recommended: weekly):**
+
 - Review open issues and PRs without labels
 - Apply `status: stale` to anything with no activity for 30+ days
 - Prompt authors or close stale items

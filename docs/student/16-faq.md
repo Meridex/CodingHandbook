@@ -258,6 +258,7 @@ git diff main feature/my-branch   # compare branches
 1. Rotate/revoke the credential immediately — treat it as compromised.
 2. Contact the maintainer — the commit must be removed from history (this is
    non-trivial for a public or shared repository).
+
 3. Add the credentials file to `.gitignore` to prevent future accidents.
 
 Never commit credentials. Use environment variables or a `.env` file that is gitignored.

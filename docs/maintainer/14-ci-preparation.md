@@ -13,11 +13,13 @@ This chapter prepares the repository for CI using GitHub Actions.
 ## What Is CI and Why the Group Needs It
 
 Without CI:
+
 - Tests run only when someone remembers
 - "Tests pass" in the PR description is unverifiable
 - A broken `main` requires manual diagnosis
 
 With CI:
+
 - Tests run automatically on every PR
 - A red ✗ on the PR blocks merge (once status checks are required in Chapter 3)
 - `main` is always in a tested state

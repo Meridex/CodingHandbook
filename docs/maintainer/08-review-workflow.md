@@ -30,6 +30,7 @@ someone with Maintain or Admin permission.
 The group policy: **respond to a PR within 2 working days** of it being assigned.
 
 "Respond" means:
+
 - Approve and merge, or
 - Leave at least one substantive comment and request changes, or
 - Leave a comment explaining a delay ("I'll review this by [date]")
@@ -124,6 +125,7 @@ The maintainer merges the PR:
 
 1. Confirm the branch is up to date with `main` (GitHub shows a warning if not).
    If not: ask the author to rebase, or click "Update branch" (merge) as a last resort.
+
 2. Confirm all conversations are resolved.
 3. Confirm CI passes (once CI is active).
 4. Click **"Squash and merge"**.
@@ -133,6 +135,7 @@ The maintainer merges the PR:
 
    Optional: one-line context if the title is not fully self-explanatory.
    ```
+
 6. Click **"Confirm squash and merge"**.
 7. The remote branch is deleted automatically.
 
@@ -143,6 +146,7 @@ The maintainer merges the PR:
 A PR is stale if the author has not responded to review feedback within 7 days.
 
 Steps:
+
 1. Leave a comment: *"Pinging @author — any update on this? Happy to help if you're stuck."*
 2. Wait 3 more days.
 3. If still no response: label `status: stale`.

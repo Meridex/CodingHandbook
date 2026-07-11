@@ -16,12 +16,14 @@ This chapter defines the minimum testing requirements for all group repositories
 **Not every line needs a test. Every result that gets published does.**
 
 The following must always have tests:
+
 - Numerical solvers (regression tests with known outputs)
 - Any function whose output appears in a paper figure
 - Parser and file-loading functions (edge cases and malformed inputs)
 - Any function that is non-trivial to inspect visually
 
 The following does not need automated tests:
+
 - Plotting and visualisation functions
 - One-time utility scripts
 - Simple file path manipulation
@@ -117,6 +119,7 @@ tests/
 **Test function naming:** `test_<what_is_being_tested>_<condition>()`
 
 Examples:
+
 - `test_thermal_correction_known_value()`
 - `test_thermal_correction_zero_temperature()`
 - `test_potential_minimum_location_at_T0()`

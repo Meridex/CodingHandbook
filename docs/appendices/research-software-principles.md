@@ -30,6 +30,7 @@ paper that describes it. It deserves the same level of care, documentation,
 and peer review.
 
 Consequences:
+
 - Code review is peer review, not gatekeeping.
 - A function without a citation to its source equation is incomplete.
 - "It works on my machine" is not scientific validation.
@@ -65,6 +66,7 @@ Version control is not for programmers — it is for anyone who produces
 files that change over time and whose history matters.
 
 In this group, version control applies to:
+
 - Simulation code
 - Analysis scripts
 - Figure-generation scripts
@@ -73,6 +75,7 @@ In this group, version control applies to:
 - This handbook
 
 **Not** managed by the group's repositories:
+
 - Raw experimental data (managed separately)
 - Large simulation outputs (referenced by path, not stored in Git)
 - Binary assets and generated figures (regenerated from code)
@@ -85,6 +88,7 @@ Consistency across the group matters more than any individual's preferred workfl
 
 The canonical workflow in this handbook is not the only valid approach to Git.
 There are many legitimate alternatives. We use one because:
+
 - Onboarding is faster when everyone does the same thing
 - Code review is easier when history has a predictable structure
 - Debugging is faster when `git log` is clean and squashed
@@ -101,6 +105,7 @@ The minimum testing bar for research code is not code coverage percentage —
 it is: *can you trust the results enough to put them in a paper?*
 
 Practically, this means:
+
 - Every numerical result that appears in a figure must have a test
 - Every equation implementation must be validated against a known special case
 - Every bug fix must be accompanied by a regression test
@@ -116,6 +121,7 @@ future self. Documenting your work is an act of respect for your collaborators
 and the scientific community.
 
 Minimum documentation standards:
+
 - Every function explains what it does and what its parameters mean
 - Every non-trivial algorithm cites its source
 - Every repository has a README that a newcomer can follow
@@ -161,6 +167,7 @@ into a published figure.
 ## 10. The Handbook Is a Living Document
 
 This handbook describes current best practices. It will need to change as:
+
 - The group grows
 - New tools become available
 - Current practices are found to be ineffective

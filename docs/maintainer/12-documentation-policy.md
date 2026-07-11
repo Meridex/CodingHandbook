@@ -17,6 +17,7 @@ This chapter defines the minimum documentation standards for all group repositor
 
 Every function or class that other code calls must have a docstring.
 The docstring must include:
+
 - **Purpose:** what the function does in one sentence
 - **Parameters:** name, type, meaning, and expected range for each parameter
 - **Return value:** type and meaning
@@ -72,6 +73,7 @@ double thermal_correction(double phi, double T, double g2);
 ### 2. Every Non-Obvious Algorithm
 
 Any non-trivial numerical method must include:
+
 - A citation to the source paper or textbook
 - The equation number being implemented
 - Any assumptions or approximations made
@@ -125,6 +127,7 @@ The README is the first thing a new user reads. It must accurately reflect the
 current state of the code.
 
 Review the README when:
+
 - A new feature significantly changes usage
 - Installation instructions change
 - Dependencies are updated
@@ -175,6 +178,7 @@ Documentation is part of the review checklist (Chapter 8).
 A PR that adds a function without a docstring should not be approved.
 
 Specifically check:
+
 - [ ] New public functions have docstrings with parameter and return docs
 - [ ] Non-obvious algorithms reference their source equation/paper
 - [ ] New scripts have header comments with usage

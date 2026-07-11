@@ -149,10 +149,13 @@ This workflow is designed specifically for a **small research group** (3–10 de
 
 1. **Working directly on `main`.** Even if branch protection were not enforced,
    this is wrong practice. Always create a branch.
+
 2. **One massive branch for everything.** Each branch should represent one
    focused task. Large branches are hard to review and hard to merge.
+
 3. **Not pulling before starting work.** If you start a branch from a stale `main`,
    your branch will diverge quickly and conflicts will accumulate.
+
 4. **Forgetting to delete the branch after merge.** Stale branches clutter the repository.
 
 ---

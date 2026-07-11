@@ -31,6 +31,7 @@ ls -la ~/.ssh
 ```
 
 Look for files named:
+
 - `id_ed25519` and `id_ed25519.pub` (recommended)
 - `id_rsa` and `id_rsa.pub` (older, acceptable)
 
@@ -219,6 +220,7 @@ If `ssh -T git@github.com` does not return your username:
 1. **Uploading the private key** (`id_ed25519` without `.pub`) to GitHub.
    This is a serious security error. Delete the key from GitHub immediately
    and generate a new key pair.
+
 2. **Forgetting to start `ssh-agent`.** The key must be loaded into the agent.
 3. **One key for multiple people.** Every person must have their own key.
 4. **Copying only part of the public key.** The entire `.pub` file content

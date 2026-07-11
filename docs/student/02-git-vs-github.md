@@ -20,9 +20,11 @@ Key properties of Git:
 
 - **Local.** Git works entirely on your machine. No internet connection is needed
   to commit, branch, diff, or view history.
+
 - **Distributed.** Every clone of a repository contains the complete history.
   There is no single "master copy" — although in practice, one remote serves as the
   canonical reference.
+
 - **Free and open source.** Created by Linus Torvalds in 2005 for Linux kernel development.
 
 Git is installed as a command-line tool:
@@ -118,8 +120,10 @@ In this group, GitHub serves as:
 
 1. **Thinking "I pushed to Git."** You push to GitHub (the remote). Git is the
    local tool. Say "I pushed to GitHub" or "I pushed to origin."
+
 2. **Editing files directly on GitHub's web editor** for anything beyond trivial
    one-line fixes. Always work locally, then push.
+
 3. **Confusing `git pull` and `git clone`.** `clone` is a one-time operation to get
    a local copy. `pull` is used regularly to sync changes after you already have a clone.
 

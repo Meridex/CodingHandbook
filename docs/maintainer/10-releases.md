@@ -12,6 +12,7 @@ presentations, and stable versions shared with collaborators.
 ## What Is a Release?
 
 A GitHub Release consists of:
+
 - A **Git tag** (the specific commit being released)
 - A **title** (human-readable version name)
 - **Release notes** (what changed)
@@ -44,6 +45,7 @@ All releases use **Semantic Versioning**: `MAJOR.MINOR.PATCH`
 | `PATCH` | Bug fixes, no new features | `1.0.0 → 1.0.1` |
 
 For research code:
+
 - The **first stable, tested version** is `v1.0.0`
 - **New calculations added** → increment MINOR
 - **Bug fixes** → increment PATCH
@@ -109,18 +111,22 @@ changed and why. Organise by category:
 This release corresponds to the code submitted with arXiv:XXXX.XXXXX.
 
 ### New Features
+
 - Added one-loop thermal correction to effective potential (#42)
 - Added gravitational wave spectrum calculator (#51)
 
 ### Bug Fixes
+
 - Fixed interpolation overflow at high temperature (#55)
 - Corrected sign error in bubble nucleation rate (#57)
 
 ### Documentation
+
 - Updated installation instructions for macOS (#61)
 - Added worked example in docs/examples/ (#63)
 
 ### Breaking Changes
+
 - `compute_potential()` now requires `include_thermal` keyword argument.
   Update existing code: `compute_potential(phi, T, include_thermal=False)`
 ```
@@ -131,6 +137,7 @@ This release corresponds to the code submitted with arXiv:XXXX.XXXXX.
 
 For most research code releases, the auto-generated source archive is sufficient.
 Attach additional assets only when:
+
 - Pre-compiled binaries are provided for reproducibility
 - Large input data files are needed to run the code
 - A specific dataset snapshot is being archived with the release

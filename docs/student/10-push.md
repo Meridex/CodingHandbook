@@ -123,6 +123,7 @@ git push --force-with-lease
     `--force` provides no such protection. Never use it.
 
 **Rules for force push:**
+
 - ✓ Your own feature branch, before or during review
 - ✓ After `git rebase origin/main` on your own branch
 - ✗ Never force-push to `main` (blocked by branch protection)

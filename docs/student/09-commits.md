@@ -50,12 +50,14 @@ Closes #42.
 ```
 
 **Subject line rules:**
+
 - Use the **imperative mood**: "Add", "Fix", "Remove", "Improve", "Refactor"
 - Maximum 72 characters
 - No period at the end
 - Describe *what* the commit does, not *how*
 
 **Body rules (optional but valuable):**
+
 - Leave a blank line between subject and body
 - Explain *why* the change was made
 - Reference relevant equations, papers, or issue numbers

@@ -22,6 +22,7 @@ Examples: `phase-transition-solver`, `gw-spectrum-calculator-py`.
 
 ### R3 — Required Files
 Every repository must contain at the time of first collaborator access:
+
 - `README.md` (using the group template)
 - `.gitignore` (appropriate for the primary language)
 - `LICENSE` (MIT unless the PI specifies otherwise)
@@ -157,6 +158,7 @@ user-facing behaviour.
 
 Policies are updated via Pull Request to this handbook.
 Proposed policy changes must:
+
 1. Be discussed in a group meeting or in an Issue before opening a PR.
 2. Be approved by the PI.
 3. Be communicated to all active group members after merging.

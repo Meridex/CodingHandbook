@@ -28,6 +28,7 @@ history exist.
 
 The backup is only as good as the most recent push.
 All branches with meaningful work must be pushed to GitHub before:
+
 - Extended absences (vacations, field work, conferences)
 - Leaving the group
 - Handing off a project
@@ -97,6 +98,7 @@ git push --tags origin
 | Every month (active projects) | Recommended |
 
 Store bundles on:
+
 - The group's institutional server (if available)
 - An external hard drive stored at the institute
 - A cloud storage service with access controlled by the PI
