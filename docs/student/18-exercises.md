@@ -84,7 +84,6 @@ git checkout -b docs/add-your-name
 
 Edit `CONTRIBUTORS.md` and add one line:
 ```
-
 - Your Name (Year) — Brief description of your research area
 ```
 
