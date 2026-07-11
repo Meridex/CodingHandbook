@@ -154,7 +154,6 @@ Add these workflows incrementally as the codebase matures:
 ### Code Style (flake8 / ruff)
 
 ```yaml
-
 - name: Lint with ruff
   run: |
     pip install ruff
