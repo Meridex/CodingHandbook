@@ -138,7 +138,7 @@ Now PRs cannot be merged if tests fail.
 Show the test status on the repository's main page:
 
 ```markdown
-[![Tests](https://github.com/ORG/REPO/actions/workflows/tests.yml/badge.svg)](https://github.com/ORG/REPO/actions/workflows/tests.yml)
+[![Tests](https://github.com/Meridex/REPO/actions/workflows/tests.yml/badge.svg)](https://github.com/Meridex/REPO/actions/workflows/tests.yml)
 ```
 
 Add this near the top of `README.md`.

@@ -243,7 +243,7 @@ After pushing, GitHub will display a link to open a Pull Request:
 
 ```
 remote: Create a pull request for 'feature/thermal-correction' on GitHub by visiting:
-remote:      https://github.com/ORG/REPO/pull/new/feature/thermal-correction
+remote:      https://github.com/Meridex/REPO/pull/new/feature/thermal-correction
 ```
 
 ---

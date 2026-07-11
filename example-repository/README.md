@@ -10,8 +10,8 @@ code.
 
 ## Status
 
-![Tests](https://github.com/ORG/phys-toolkit-example/actions/workflows/tests.yml/badge.svg)
-![License](https://img.shields.io/github/license/ORG/phys-toolkit-example)
+![Tests](https://github.com/Meridex/phys-toolkit-example/actions/workflows/tests.yml/badge.svg)
+![License](https://img.shields.io/github/license/Meridex/phys-toolkit-example)
 
 ## Requirements
 
@@ -63,7 +63,7 @@ phys-toolkit-example/
 ## Exercises
 
 This repository supports all exercises in the
-[Group Coding Handbook](https://ORG.github.io/GroupCodingHandbook/),
+[Group Coding Handbook](https://Meridex.github.io/CodeHandbook/),
 Student Guide Chapter 18. The seeded issues below give you real tasks to work on:
 
 | Issue | Title | Type |

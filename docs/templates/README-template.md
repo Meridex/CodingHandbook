@@ -4,9 +4,9 @@ One-paragraph description of what the code does and what physics it addresses.
 
 ## Status
 
-![CI](https://github.com/ORG/REPO/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/github/license/ORG/REPO)
-![Version](https://img.shields.io/github/v/tag/ORG/REPO)
+![CI](https://github.com/Meridex/REPO/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Meridex/REPO)
+![Version](https://img.shields.io/github/v/tag/Meridex/REPO)
 
 ## Requirements
 

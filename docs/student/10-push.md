@@ -63,7 +63,7 @@ Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 remote:
 remote: Create a pull request for 'feature/thermal-correction' on GitHub by visiting:
-remote:      https://github.com/ORG/REPO/pull/new/feature/thermal-correction
+remote:      https://github.com/Meridex/REPO/pull/new/feature/thermal-correction
 remote:
 To github.com:ORG/REPO.git
  * [new branch]      feature/thermal-correction -> feature/thermal-correction
@@ -72,7 +72,7 @@ Branch 'feature/thermal-correction' set up to track remote branch 'feature/therm
 
 Key line:
 ```
-remote:      https://github.com/ORG/REPO/pull/new/feature/thermal-correction
+remote:      https://github.com/Meridex/REPO/pull/new/feature/thermal-correction
 ```
 
 Click this URL (or copy it into your browser) to open a Pull Request directly.

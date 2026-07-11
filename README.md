@@ -1,6 +1,6 @@
-# NNU-PP Research Software Handbook
+# Meridex Research Software Handbook
 
-> Official software engineering handbook for the NNU-PP research group.
+> Official software engineering handbook for the Meridex research group.
 
 This handbook defines **how research software is developed, reviewed, and maintained in the group**.
 It is the authoritative onboarding document for all students and developers — not a generic Git tutorial.
@@ -21,7 +21,7 @@ It is the authoritative onboarding document for all students and developers — 
 ## Repository Layout
 
 ```text
-Lab-Handbook/
+CodeHandbook/
 ├── README.md                    ← This file
 ├── mkdocs.yml                   ← MkDocs site configuration
 ├── docs/
@@ -84,4 +84,4 @@ To suggest a correction or addition, open a Pull Request following the standard 
 
 ## Contact
 
-NNU-PP Research Group
+Meridex Research Group

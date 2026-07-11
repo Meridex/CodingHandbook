@@ -11,7 +11,7 @@ students and developers — not a generic Git tutorial.
 ## Target Repository Layout (Final Deliverable)
 
 ```text
-Lab-Handbook/
+CodeHandbook/
 ├── README.md                    ← Project entry point & quick-start
 ├── mkdocs.yml                   ← MkDocs site configuration
 ├── docs/

@@ -39,7 +39,7 @@ Long-term maintenance.
 ## 4. Repository Layout
 
 ``` text
-Lab-Handbook/
+CodeHandbook/
 ├── README.md
 ├── mkdocs.yml
 ├── docs/

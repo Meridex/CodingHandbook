@@ -23,8 +23,8 @@ repository-level configuration files.
 site_name: NNU-PP Research Software Handbook
 site_description: Official software engineering handbook for the NNU-PP research group
 site_author: NNU-PP Group
-repo_url: https://github.com/ORG/Lab-Handbook
-repo_name: ORG/Lab-Handbook
+repo_url: https://github.com/Meridex/CodeHandbook
+repo_name: Meridex/CodeHandbook
 edit_uri: edit/main/docs/
 
 theme:
@@ -226,8 +226,8 @@ __pycache__/
 Students and maintainers can build the handbook locally:
 
 ```bash
-git clone git@github.com:ORG/Lab-Handbook.git
-cd Lab-Handbook
+git clone git@github.com:Meridex/CodeHandbook.git
+cd CodeHandbook
 pip install mkdocs-material
 mkdocs serve
 ```

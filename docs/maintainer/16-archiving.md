@@ -94,7 +94,7 @@ authors:
 version: 1.0.0
 date-released: "2026-07-10"
 doi: "10.5281/zenodo.XXXXXXX"
-repository-code: "https://github.com/ORG/phase-transition-solver"
+repository-code: "https://github.com/Meridex/phase-transition-solver"
 license: MIT
 ```
 
