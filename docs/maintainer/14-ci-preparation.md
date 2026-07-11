@@ -172,7 +172,6 @@ Add these workflows incrementally as the codebase matures:
 ### Documentation Build
 
 ```yaml
-
 - name: Build MkDocs
   run: |
     pip install mkdocs-material
