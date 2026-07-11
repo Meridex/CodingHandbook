@@ -58,6 +58,7 @@ git checkout -b feature/describe-your-task
 ```
 
 This command:
+
 1. Creates a new branch named `feature/describe-your-task`
 2. Switches you to that branch immediately
 
@@ -300,12 +301,16 @@ setting "Automatically delete head branches" is enabled).
 
 1. **Skipping `git pull` at the start of the day.** Your branch will be based on
    a stale `main` and accumulate conflicts.
+
 2. **Committing everything in one giant commit.** This makes review difficult and
    makes it impossible to trace when a bug was introduced.
+
 3. **Staging with `git add .` without checking `git status` first.**
    You may accidentally commit generated files or temporary files.
+
 4. **Working on `main` instead of a feature branch.** Git may allow this locally,
    but your push to `main` will be rejected by branch protection.
+
 5. **Forgetting to push before opening the PR.** The PR cannot be created if
    the branch is not on GitHub.
 

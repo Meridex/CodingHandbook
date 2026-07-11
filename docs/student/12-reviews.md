@@ -48,6 +48,7 @@ When leaving feedback as a reviewer, label your intent:
 5. If you disagree with a suggestion, say so politely with reasoning:
    > "I considered this, but the list comprehension version is harder to debug
    > because it hides the intermediate step. I'll keep the loop for now."
+
 6. After addressing all feedback, request a re-review.
 
 **Keep replies brief and professional.** A two-sentence explanation is usually sufficient.
@@ -59,12 +60,14 @@ When leaving feedback as a reviewer, label your intent:
 When you are the reviewer, evaluate the PR against this checklist:
 
 ### Scientific Correctness
+
 - [ ] The mathematical derivation or physical model is correct.
 - [ ] Equations are implemented as described (check against the paper or derivation).
 - [ ] Numerical parameters (tolerances, step sizes) are physically reasonable.
 - [ ] Edge cases are handled (zero temperature, zero field, singular limits).
 
 ### Code Quality
+
 - [ ] The code is readable — someone unfamiliar can understand it.
 - [ ] Variable and function names are descriptive.
 - [ ] No code duplication that should be a function.
@@ -72,16 +75,19 @@ When you are the reviewer, evaluate the PR against this checklist:
 - [ ] No debug output (`print` statements, `breakpoint()` calls) left in.
 
 ### Tests
+
 - [ ] New functionality has tests.
 - [ ] Tests cover edge cases, not just the happy path.
 - [ ] Existing tests still pass.
 
 ### Documentation
+
 - [ ] New functions have docstrings (where the codebase uses them).
 - [ ] The CHANGELOG or PR description explains what changed and why.
 - [ ] No broken links or outdated descriptions.
 
 ### Repository Hygiene
+
 - [ ] No generated files committed (`.pyc`, `__pycache__`, output figures).
 - [ ] No large data files committed.
 - [ ] No credentials or secrets.
@@ -108,13 +114,16 @@ When you are the reviewer, evaluate the PR against this checklist:
 ## Review Etiquette
 
 **For the reviewer:**
+
 - Be specific. "This function is wrong" is less useful than
   "This function will return `None` when `x < 0`, which will crash the caller."
+
 - Focus on the code, not the person.
 - Acknowledge good work. A review with only criticisms is demoralising.
 - Review in a timely manner. A PR waiting for review for a week blocks the author.
 
 **For the author:**
+
 - Do not take feedback personally. The reviewer is improving the research output, not judging you.
 - Do not dismiss feedback without engaging with it.
 - Keep PRs small enough to review in one sitting (see Chapter 11).

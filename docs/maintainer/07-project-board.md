@@ -52,10 +52,12 @@ Add these fields to track status alongside the default title/assignee:
 ## Linking Issues and PRs to the Board
 
 When creating an issue or PR:
+
 - Right sidebar → **Projects** → select the board
 - Set the **Status** field to the appropriate column
 
 When work progresses, update the status:
+
 - Created issue → **Backlog**
 - Work started, branch created → **In Progress**
 - PR opened → **In Review**

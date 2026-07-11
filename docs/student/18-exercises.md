@@ -48,6 +48,7 @@ git log --oneline -5
 ```
 
 Verify:
+
 - The remote URL starts with `git@github.com:`
 - The log shows at least one commit
 
@@ -61,6 +62,7 @@ cat README.md
 ```
 
 Answer these questions in your notes:
+
 1. What files are at the top level?
 2. Is there a `src/` directory? A `tests/` directory?
 3. What is this code supposed to do (from the README)?
@@ -82,6 +84,7 @@ git checkout -b docs/add-your-name
 
 Edit `CONTRIBUTORS.md` and add one line:
 ```
+
 - Your Name (Year) — Brief description of your research area
 ```
 
@@ -118,6 +121,7 @@ git log --oneline
 ### Exercise 2.3 — Interactive Staging
 
 In the file you created for Exercise 2.2, make two unrelated changes:
+
 - Fix a typo in a comment
 - Add a second function
 
@@ -169,6 +173,7 @@ git push -u origin feature/add-your-function
 ```
 
 On GitHub, open a draft PR with:
+
 - Title: `Add [function name] function`
 - Mark it as a draft (click the arrow next to "Create pull request")
 
@@ -184,6 +189,7 @@ Ask a colleague (or the maintainer) to review your `docs/add-your-name` PR
 and leave at least one comment.
 
 Respond to the comment:
+
 1. Make the requested change (if any).
 2. Commit and push.
 3. Reply to the comment explaining what you did.
@@ -215,14 +221,17 @@ Find a colleague who has an open PR. Review it:
    git log --oneline HEAD..origin/main
    ```
    Confirm you are behind.
+
 3. Rebase:
    ```bash
    git rebase origin/main
    ```
+
 4. Force-push:
    ```bash
    git push --force-with-lease
    ```
+
 5. Verify the PR shows "no conflicts" on GitHub.
 
 ---
@@ -243,6 +252,7 @@ Work with a colleague:
    git rebase origin/main
    # Conflict!
    ```
+
 6. Resolve the conflict, stage the file, continue the rebase, and push.
 
 ---
@@ -260,6 +270,7 @@ Work with a colleague:
    git reset --hard origin/main
    git checkout feature/recovered
    ```
+
 5. Verify your commit is now only on `feature/recovered`.
 
 ---
@@ -271,11 +282,13 @@ Work with a colleague:
    ```bash
    git stash
    ```
+
 3. Switch to `main`, pull, switch back.
 4. Pop the stash:
    ```bash
    git stash pop
    ```
+
 5. Verify your changes are restored.
 
 ---
@@ -285,6 +298,7 @@ Work with a colleague:
 ### Exercise 8.1 — Merge Your PR
 
 After your `docs/add-your-name` PR is approved:
+
 - The maintainer will squash-merge it.
 - After the merge, clean up locally:
   ```bash
@@ -292,6 +306,7 @@ After your `docs/add-your-name` PR is approved:
   git pull origin main
   git branch -d docs/add-your-name
   ```
+
 - Verify your name is now in `CONTRIBUTORS.md` on `main`.
 
 ---

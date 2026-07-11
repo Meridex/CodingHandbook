@@ -189,9 +189,11 @@ SSH setup is covered in the next chapter. You are not yet ready to push or pull.
 
 1. **Using a personal email instead of the institute email.** Commits will not be
    linked to your GitHub profile correctly, and the group's audit records will be incomplete.
+
 2. **Skipping `user.email`.** Git will warn you on every commit.
 3. **Not setting `init.defaultBranch main`.** New repositories will start on `master`
    instead of `main`, causing confusion.
+
 4. **Configuring at repository level instead of global.** Without `--global`,
    settings only apply to the current repository. Use `--global` for all identity settings.
 

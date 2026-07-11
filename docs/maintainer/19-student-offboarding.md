@@ -54,6 +54,7 @@ For any significant in-progress work, the departing student must write a handoff
 This can be a comment on the relevant Issue or PR, or a short document in `docs/`:
 
 The note must include:
+
 - Current state of the work
 - What has been done and what remains
 - Any non-obvious context (numerical subtleties, failed approaches, physics assumptions)
@@ -103,6 +104,7 @@ Verify on GitHub that all expected branches and tags are present.
 ## Step 5: Final Knowledge Transfer
 
 Before access is revoked, have a 30-minute conversation covering:
+
 - Status of all in-progress work
 - Any domain knowledge not documented in the code
 - Passwords or shared credentials that need to be rotated
@@ -140,21 +142,25 @@ Their name will appear in `git log` forever — which is appropriate attribution
 ## Offboarding Checklist
 
 ### 2 Weeks Before
+
 - [ ] All open PRs identified and action decided (merge, transfer, or close)
 - [ ] All open Issues reassigned
 - [ ] All active branches identified
 
 ### 1 Week Before
+
 - [ ] In-progress branches committed and pushed
 - [ ] Handoff documentation written for significant unfinished work
 - [ ] Unmerged but valuable branches archived as tags
 
 ### Last Day
+
 - [ ] All work pushed (`git push --all origin && git push --tags origin`)
 - [ ] Knowledge transfer conversation completed and notes taken
 - [ ] GitHub access revoked
 
 ### After Departure
+
 - [ ] Student removed from communication channels
 - [ ] Any shared credentials rotated
 - [ ] Final backup created (git bundle)

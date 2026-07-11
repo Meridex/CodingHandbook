@@ -28,6 +28,7 @@ Configure the rule for the branch name pattern: `main`
 ✓ **Enable:** "Require a pull request before merging"
 
 Sub-options:
+
 - **"Require approvals":** ✓ Enable — set to **1** (minimum; increase when group grows)
 - **"Dismiss stale pull request approvals when new commits are pushed":** ✓ Enable
 
@@ -43,6 +44,7 @@ Sub-options:
 ✓ **Enable:** "Require status checks to pass before merging"
 
 Sub-options:
+
 - **"Require branches to be up to date before merging":** ✓ Enable
 
   *Why:* Prevents a PR from merging if `main` has advanced since the PR branch

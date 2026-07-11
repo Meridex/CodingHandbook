@@ -12,6 +12,7 @@ They are the primary tool for deadline-driven planning in the group.
 ## What Is a Milestone?
 
 A milestone has:
+
 - A **title** (the goal)
 - An optional **description** (what done looks like)
 - A **due date**
@@ -63,9 +64,11 @@ A milestone without a due date is just a label with extra steps.
 ## Assigning Issues and PRs to Milestones
 
 When opening or editing an Issue or PR:
+
 - Right sidebar → **Milestone** → select the appropriate milestone
 
 For batch assignment:
+
 - **Issues** → check multiple issues → **Milestone** dropdown
 
 **Policy:** Every issue and PR that must be completed before a deadline
@@ -81,6 +84,7 @@ Navigate to **Issues → Milestones** to see all milestones and their completion
 The progress bar shows `X of Y issues/PRs closed`.
 
 Use this in group meetings to communicate:
+
 - How much remains before the deadline
 - Which items are blocking progress
 - Whether the deadline is realistic

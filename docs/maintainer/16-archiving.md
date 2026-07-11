@@ -6,6 +6,7 @@ A repository should be archived when a project is complete: the paper is publish
 the code is stable, and no further active development is planned.
 
 Archiving is distinct from deletion. An archived repository:
+
 - Remains accessible on GitHub
 - Is clearly marked as inactive (read-only)
 - Can be cloned and cited forever
@@ -57,6 +58,7 @@ The release notes should include the paper DOI and a summary of what the code do
 ### 2. Update README
 
 The README should clearly state:
+
 - The paper this code corresponds to (with full citation and DOI)
 - That the repository is archived and not actively maintained
 - Contact information for questions (PI email)

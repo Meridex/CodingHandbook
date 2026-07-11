@@ -21,6 +21,7 @@
       ```bash
       git tag -a vX.Y.Z -m "Release vX.Y.Z — brief description"
       ```
+
 - [ ] Tag pushed: `git push origin vX.Y.Z`
 - [ ] Tag verified on GitHub
 

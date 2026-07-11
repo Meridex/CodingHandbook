@@ -74,6 +74,7 @@ with the student. Have them:
 ## The First PR Review: A Teaching Moment
 
 Review the student's first PR yourself, leaving **pedagogical comments**:
+
 - Point out what they did well
 - Explain (not just flag) any issues with commit message, PR description, etc.
 - Approve and merge together so they see the full cycle

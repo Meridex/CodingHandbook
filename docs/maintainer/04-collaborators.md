@@ -54,6 +54,7 @@ graph TD
 5. GitHub sends an invitation email. The collaborator must accept within 7 days.
 
 Verify acceptance:
+
 - Settings → Collaborators → look for "Pending" status
 - Follow up if pending for more than 2 business days
 
@@ -100,6 +101,7 @@ Access for individual repository:
 **Repository → Insights → (not available) — use organisation audit log**
 
 Use the audit log to:
+
 - Verify that a student accepted their invitation
 - Confirm who made a settings change
 - Investigate unexpected repository actions

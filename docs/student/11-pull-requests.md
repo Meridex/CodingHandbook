@@ -42,6 +42,7 @@ After pushing your branch:
 1. Go to the repository on GitHub.
 2. Click **"Compare & pull request"** in the yellow banner, or go to
    **Pull Requests → New pull request**.
+
 3. Verify:
    - **Base branch:** `main`
    - **Compare branch:** your feature branch
@@ -66,11 +67,13 @@ causing incorrect phase boundary predictions at T > 0.
 
 ## Summary of Changes
 <!-- High-level description of what was changed. -->
+
 - Added `thermal_correction()` function in `src/thermal.py`
 - Integrated the correction into `EffectivePotential.compute()`
 - Added unit tests in `tests/test_thermal.py`
 
 ## Files Affected
+
 - `src/thermal.py` (new file)
 - `src/potential.py` (modified: integrate thermal correction)
 - `tests/test_thermal.py` (new file)
@@ -100,6 +103,7 @@ The title should complete: "If merged, this PR will ___."
 In the right sidebar of the PR page, click **Reviewers** and select a group member.
 
 Group policy:
+
 - Every PR requires **at least one approval** before it can be merged.
 - Assign the reviewer who is most familiar with the code area you changed.
 - If unsure who to assign, ask the maintainer.
@@ -176,6 +180,7 @@ A PR that changes 500 lines may sit unreviewed for days because no one wants
 to tackle it.
 
 Guidelines:
+
 - **One PR per feature or bug fix** — do not bundle unrelated changes.
 - If your task is large, split it into sequential PRs.
 - A PR touching more than 300 lines (excluding tests and docs) should be discussed

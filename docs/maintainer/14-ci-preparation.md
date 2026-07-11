@@ -13,11 +13,13 @@ This chapter prepares the repository for CI using GitHub Actions.
 ## What Is CI and Why the Group Needs It
 
 Without CI:
+
 - Tests run only when someone remembers
 - "Tests pass" in the PR description is unverifiable
 - A broken `main` requires manual diagnosis
 
 With CI:
+
 - Tests run automatically on every PR
 - A red ✗ on the PR blocks merge (once status checks are required in Chapter 3)
 - `main` is always in a tested state
@@ -152,6 +154,7 @@ Add these workflows incrementally as the codebase matures:
 ### Code Style (flake8 / ruff)
 
 ```yaml
+
 - name: Lint with ruff
   run: |
     pip install ruff
@@ -161,6 +164,7 @@ Add these workflows incrementally as the codebase matures:
 ### Type Checking (mypy)
 
 ```yaml
+
 - name: Type check with mypy
   run: |
     pip install mypy
@@ -170,6 +174,7 @@ Add these workflows incrementally as the codebase matures:
 ### Documentation Build
 
 ```yaml
+
 - name: Build MkDocs
   run: |
     pip install mkdocs-material
