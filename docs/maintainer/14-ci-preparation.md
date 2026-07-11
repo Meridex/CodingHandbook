@@ -154,6 +154,7 @@ Add these workflows incrementally as the codebase matures:
 ### Code Style (flake8 / ruff)
 
 ```yaml
+
 - name: Lint with ruff
   run: |
     pip install ruff
@@ -163,6 +164,7 @@ Add these workflows incrementally as the codebase matures:
 ### Type Checking (mypy)
 
 ```yaml
+
 - name: Type check with mypy
   run: |
     pip install mypy
@@ -172,6 +174,7 @@ Add these workflows incrementally as the codebase matures:
 ### Documentation Build
 
 ```yaml
+
 - name: Build MkDocs
   run: |
     pip install mkdocs-material

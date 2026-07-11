@@ -1,6 +1,6 @@
-# NNU-PP Research Software Handbook
+# Meridex Research Software Handbook
 
-Welcome to the official software engineering handbook for the NNU-PP research group.
+Welcome to the official software engineering handbook for the Meridex research group.
 
 This handbook defines **how research software is developed, reviewed, and maintained in the group**.
 It covers the complete workflow from first setup to long-term repository maintenance.

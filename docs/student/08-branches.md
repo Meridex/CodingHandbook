@@ -99,6 +99,7 @@ git branch
 Output:
 
 ```
+
 * feature/my-task
   main
 ```
